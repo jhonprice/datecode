@@ -1,9 +1,0 @@
-# usr/bin/env python
-# -*- coding: utf-8 -*-
-
-d={'line1': 'sd','line2': 'ds','line3': 'dfd'};
-
-d['line2']=990;
-
-print d.get('line4',-2);
-

@@ -39,7 +39,7 @@ public class MyRandom {
 			RandomAccessFile inFile=new RandomAccessFile("D:\\onedrive\\我的代码\\javawork\\java实验\\src\\sy_2\\a.txt","r");
 			inFile.seek(a);
 			//System.out.println(a);
-			Char c=inFile.readChar();
+			char c=inFile.readChar();
 			inFile.close();
 			System.out.println(c);
 			//System.out.println("RandomFile.txt文件中第"+a+"个字符是"+c);

@@ -1,7 +1,0 @@
-# usr/bin/env python
-# -*- coding: utf-8 -*-
-
-s=set([1,2,2,2,2,3,4,5]);
-
-s.add(2)
-print s;

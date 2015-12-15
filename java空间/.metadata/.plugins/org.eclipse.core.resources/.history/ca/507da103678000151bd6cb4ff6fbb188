@@ -1,8 +1,0 @@
-# usr/bin/env python
-# -*- coding: utf-8 -*-
-
-#from collections import Iterable
-
-import collections.Iterable;
-
-print isinstance('abc', Iterable)
