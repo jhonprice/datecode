@@ -1,0 +1,44 @@
+package bigdata;
+
+public class test {
+
+	public static void main(String[] args)
+	{
+		
+	}
+	public static String func3(String s)
+	{
+		s.replace("£¬",  "");
+		s.replace("O",  "0");
+		s.replace("o",  "0");
+		s.replace("©–", "0");
+		s.replace("Áã", "0");
+		///////////////////////////////////////////
+		s.replace("Ò»", "1");
+		s.replace("¶þ", "2");
+		s.replace("Èý", "3");
+		s.replace("ËÄ", "4");
+		s.replace("Îå", "5");
+		s.replace("Áù", "6");
+		s.replace("Æß", "7");
+		s.replace("°Ë", "8");
+		s.replace("¾Å", "9");
+		///////////////////////////////////////////
+		s.replace("Ò¼", "1");
+		s.replace("·¡", "2");
+		s.replace("Èþ", "3");
+		s.replace("ËÁ", "4");
+		s.replace("Îé", "5");
+		s.replace("Â½", "6");
+		s.replace("Æâ", "7");
+		s.replace("°Æ", "8");
+		s.replace("¾Á", "9");
+		//////////////////////////////////////////
+		
+		
+		
+		
+		return s;
+	}
+
+}

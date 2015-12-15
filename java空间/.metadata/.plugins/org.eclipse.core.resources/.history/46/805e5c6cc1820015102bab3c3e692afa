@@ -1,0 +1,10 @@
+package javacore;
+
+public class Shape<T> {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

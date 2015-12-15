@@ -1,0 +1,18 @@
+package javacore;
+
+interface Shape
+{
+	public abstract double square();  
+}
+class Circle implements Shape
+{
+	
+}
+public class Homework {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

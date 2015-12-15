@@ -1,0 +1,59 @@
+package bigdata;
+import java.util.*;
+public class test {
+
+	public static void main(String[] args)
+	{
+		System.out.println(func3("四万五千零一十八"));
+		System.out.println(func3("12121，           1213123.231232"));
+	}
+	public static String func3(String s)
+	{
+		s=s.replace(" ", "");
+		//////////////////////////////////////////
+		s=s.replace("，",  "");
+		s=s.replace("O",  "0");
+		s=s.replace("o",  "0");
+		s=s.replace("〇", "0");
+		s=s.replace("零", "0");
+		///////////////////////////////////////////
+		s=s.replace("一", "1");
+		s=s.replace("二", "2");
+		s=s.replace("三", "3");
+		s=s.replace("四", "4");
+		s=s.replace("五", "5");
+		s=s.replace("六", "6");
+		s=s.replace("七", "7");
+		s=s.replace("八", "8");
+		s=s.replace("九", "9");
+		///////////////////////////////////////////
+		s=s.replace("壹", "1");
+		s=s.replace("贰", "2");
+		s=s.replace("叁", "3");
+		s=s.replace("肆", "4");
+		s=s.replace("伍", "5");
+		s=s.replace("陆", "6");
+		s=s.replace("柒", "7");
+		s=s.replace("捌", "8");
+		s=s.replace("玖", "9");
+		//////////////////////////////////////////
+		if(s.endsWith("万"))
+			s=s+"0000";
+		if(s.endsWith("千")||s.endsWith("仟"))
+			s=s+"000";
+		if(s.endsWith("百")||s.endsWith("佰"))
+			s=s+"00";
+		if(s.endsWith("十")||s.endsWith("拾"))
+			s=s+"0";
+		//////////////////////////////////////////
+		s=s.replace("万", "");
+		s=s.replace("千", "");
+		s=s.replace("仟", "");
+		s=s.replace("百", "");
+		s=s.replace("佰", "");
+		s=s.replace("十", "");
+		s=s.replace("拾", "");	
+		return s;
+	}
+
+}

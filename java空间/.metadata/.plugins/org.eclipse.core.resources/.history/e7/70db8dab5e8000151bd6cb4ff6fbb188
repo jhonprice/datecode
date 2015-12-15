@@ -1,0 +1,8 @@
+# usr/bin/env python
+# -*- coding: utf-8 -*-
+
+a='abc';
+
+a=a.replace('a','A');
+
+print a;

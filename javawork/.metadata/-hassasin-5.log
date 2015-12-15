@@ -1,0 +1,414 @@
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2015-12-09 10:45:44.123
+!MESSAGE Publishing the configuration...
+!SUBENTRY 1 org.eclipse.jst.server.tomcat.core 4 0 2015-12-09 10:45:44.124
+!MESSAGE Could not publish server configuration: File not found: D:\onedrive\我的代码\javawork\Servers\Tomcat v8.0 Server at localhost-config\catalina.policy..
+!STACK 1
+org.eclipse.core.runtime.CoreException: File not found: D:\onedrive\我的代码\javawork\Servers\Tomcat v8.0 Server at localhost-config\catalina.policy.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:49)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:391)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:834)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:269)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:260)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatConfiguration.backupFolder(TomcatConfiguration.java:140)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatConfiguration.backupAndPublish(TomcatConfiguration.java:95)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServerBehaviour.publishServer(TomcatServerBehaviour.java:238)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:975)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3157)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.io.FileNotFoundException: D:\onedrive\我的代码\javawork\Servers\Tomcat v8.0 Server at localhost-config\catalina.policy (系统找不到指定的文件。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:382)
+	... 11 more
+!SUBENTRY 2 org.eclipse.core.filesystem 4 271 2015-12-09 10:45:44.125
+!MESSAGE File not found: D:\onedrive\我的代码\javawork\Servers\Tomcat v8.0 Server at localhost-config\catalina.policy.
+!STACK 0
+java.io.FileNotFoundException: D:\onedrive\我的代码\javawork\Servers\Tomcat v8.0 Server at localhost-config\catalina.policy (系统找不到指定的文件。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:382)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:834)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:269)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:260)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatConfiguration.backupFolder(TomcatConfiguration.java:140)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatConfiguration.backupAndPublish(TomcatConfiguration.java:95)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServerBehaviour.publishServer(TomcatServerBehaviour.java:238)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:975)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3157)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.jst.server.tomcat.core 4 0 2015-12-09 10:45:44.125
+!MESSAGE Could not publish server configuration: File not found: D:\onedrive\我的代码\javawork\Servers\Tomcat v8.0 Server at localhost-config\catalina.properties..
+!STACK 1
+org.eclipse.core.runtime.CoreException: File not found: D:\onedrive\我的代码\javawork\Servers\Tomcat v8.0 Server at localhost-config\catalina.properties.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:49)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:391)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:834)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:269)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:260)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatConfiguration.backupFolder(TomcatConfiguration.java:140)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatConfiguration.backupAndPublish(TomcatConfiguration.java:95)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServerBehaviour.publishServer(TomcatServerBehaviour.java:238)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:975)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3157)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.io.FileNotFoundException: D:\onedrive\我的代码\javawork\Servers\Tomcat v8.0 Server at localhost-config\catalina.properties (系统找不到指定的文件。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:382)
+	... 11 more
+!SUBENTRY 2 org.eclipse.core.filesystem 4 271 2015-12-09 10:45:44.126
+!MESSAGE File not found: D:\onedrive\我的代码\javawork\Servers\Tomcat v8.0 Server at localhost-config\catalina.properties.
+!STACK 0
+java.io.FileNotFoundException: D:\onedrive\我的代码\javawork\Servers\Tomcat v8.0 Server at localhost-config\catalina.properties (系统找不到指定的文件。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:382)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:834)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:269)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:260)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatConfiguration.backupFolder(TomcatConfiguration.java:140)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatConfiguration.backupAndPublish(TomcatConfiguration.java:95)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServerBehaviour.publishServer(TomcatServerBehaviour.java:238)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:975)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3157)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.jst.server.tomcat.core 4 0 2015-12-09 10:45:44.126
+!MESSAGE Could not publish server configuration: File not found: D:\onedrive\我的代码\javawork\Servers\Tomcat v8.0 Server at localhost-config\context.xml..
+!STACK 1
+org.eclipse.core.runtime.CoreException: File not found: D:\onedrive\我的代码\javawork\Servers\Tomcat v8.0 Server at localhost-config\context.xml.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:49)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:391)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:834)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:269)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:260)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatConfiguration.backupFolder(TomcatConfiguration.java:140)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatConfiguration.backupAndPublish(TomcatConfiguration.java:95)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServerBehaviour.publishServer(TomcatServerBehaviour.java:238)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:975)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3157)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.io.FileNotFoundException: D:\onedrive\我的代码\javawork\Servers\Tomcat v8.0 Server at localhost-config\context.xml (系统找不到指定的文件。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:382)
+	... 11 more
+!SUBENTRY 2 org.eclipse.core.filesystem 4 271 2015-12-09 10:45:44.128
+!MESSAGE File not found: D:\onedrive\我的代码\javawork\Servers\Tomcat v8.0 Server at localhost-config\context.xml.
+!STACK 0
+java.io.FileNotFoundException: D:\onedrive\我的代码\javawork\Servers\Tomcat v8.0 Server at localhost-config\context.xml (系统找不到指定的文件。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:382)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:834)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:269)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:260)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatConfiguration.backupFolder(TomcatConfiguration.java:140)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatConfiguration.backupAndPublish(TomcatConfiguration.java:95)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServerBehaviour.publishServer(TomcatServerBehaviour.java:238)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:975)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3157)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 unknown 0 0 2015-12-09 10:45:44.128
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.jst.server.tomcat.core 4 0 2015-12-09 10:45:44.128
+!MESSAGE Could not publish server configuration: File not found: D:\onedrive\我的代码\javawork\Servers\Tomcat v8.0 Server at localhost-config\tomcat-users.xml..
+!STACK 1
+org.eclipse.core.runtime.CoreException: File not found: D:\onedrive\我的代码\javawork\Servers\Tomcat v8.0 Server at localhost-config\tomcat-users.xml.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:49)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:391)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:834)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:269)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:260)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatConfiguration.backupFolder(TomcatConfiguration.java:140)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatConfiguration.backupAndPublish(TomcatConfiguration.java:95)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServerBehaviour.publishServer(TomcatServerBehaviour.java:238)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:975)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3157)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.io.FileNotFoundException: D:\onedrive\我的代码\javawork\Servers\Tomcat v8.0 Server at localhost-config\tomcat-users.xml (系统找不到指定的文件。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:382)
+	... 11 more
+!SUBENTRY 2 org.eclipse.core.filesystem 4 271 2015-12-09 10:45:44.129
+!MESSAGE File not found: D:\onedrive\我的代码\javawork\Servers\Tomcat v8.0 Server at localhost-config\tomcat-users.xml.
+!STACK 0
+java.io.FileNotFoundException: D:\onedrive\我的代码\javawork\Servers\Tomcat v8.0 Server at localhost-config\tomcat-users.xml (系统找不到指定的文件。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:382)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:834)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:269)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:260)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatConfiguration.backupFolder(TomcatConfiguration.java:140)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatConfiguration.backupAndPublish(TomcatConfiguration.java:95)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServerBehaviour.publishServer(TomcatServerBehaviour.java:238)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:975)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3157)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.jst.server.tomcat.core 4 0 2015-12-09 10:45:44.129
+!MESSAGE Could not publish server configuration: File not found: D:\onedrive\我的代码\javawork\Servers\Tomcat v8.0 Server at localhost-config\web.xml..
+!STACK 1
+org.eclipse.core.runtime.CoreException: File not found: D:\onedrive\我的代码\javawork\Servers\Tomcat v8.0 Server at localhost-config\web.xml.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:49)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:391)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:834)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:269)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:260)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatConfiguration.backupFolder(TomcatConfiguration.java:140)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatConfiguration.backupAndPublish(TomcatConfiguration.java:95)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServerBehaviour.publishServer(TomcatServerBehaviour.java:238)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:975)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3157)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.io.FileNotFoundException: D:\onedrive\我的代码\javawork\Servers\Tomcat v8.0 Server at localhost-config\web.xml (系统找不到指定的文件。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:382)
+	... 11 more
+!SUBENTRY 2 org.eclipse.core.filesystem 4 271 2015-12-09 10:45:44.130
+!MESSAGE File not found: D:\onedrive\我的代码\javawork\Servers\Tomcat v8.0 Server at localhost-config\web.xml.
+!STACK 0
+java.io.FileNotFoundException: D:\onedrive\我的代码\javawork\Servers\Tomcat v8.0 Server at localhost-config\web.xml (系统找不到指定的文件。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:382)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:834)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:269)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:260)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatConfiguration.backupFolder(TomcatConfiguration.java:140)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatConfiguration.backupAndPublish(TomcatConfiguration.java:95)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServerBehaviour.publishServer(TomcatServerBehaviour.java:238)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:975)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3157)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.epp.logging.aeri.ui 2 2 2015-12-09 10:45:57.090
+!MESSAGE Failed to send error log entry.
+!SUBENTRY 1 org.eclipse.epp.logging.aeri.ui 2 0 2015-12-09 10:45:57.090
+!MESSAGE <?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>Service unavailable!</title>
+<link rev="made" href="mailto:%5bno%20address%20given%5d" />
+<style type="text/css"><!--/*--><![CDATA[/*><!--*/ 
+    body { color: #000000; background-color: #FFFFFF; }
+    a:link { color: #0000CC; }
+    p, address {margin-left: 3em;}
+    span {font-size: smaller;}
+/*]]>*/--></style>
+</head>
+
+<body>
+<h1>Service unavailable!</h1>
+<p>
+
+
+    The server is temporarily unable to service your
+    request due to maintenance downtime or capacity
+    problems. Please try again later. 
+
+</p>
+<p>
+If you think this is a server error, please contact
+the <a href="mailto:%5bno%20address%20given%5d">webmaster</a>.
+
+</p>
+
+<h2>Error 503</h2>
+<address>
+  <a href="/">dev.eclipse.org</a><br />
+  
+  <span>Tue Dec  8 21:43:51 2015<br />
+  Apache/2.2.12 (Linux/SUSE)</span>
+</address>
+</body>
+</html>
+
+
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2015-12-09 10:46:03.411
+!MESSAGE Could not load the Tomcat server configuration at \Servers\Tomcat v8.0 Server at localhost-config. The configuration may be corrupt or incomplete.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not load the Tomcat server configuration at \Servers\Tomcat v8.0 Server at localhost-config. The configuration may be corrupt or incomplete.
+	at org.eclipse.jst.server.tomcat.core.internal.Tomcat80Configuration.load(Tomcat80Configuration.java:313)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServer.getTomcatConfiguration(TomcatServer.java:126)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServerBehaviour.getTomcatConfiguration(TomcatServerBehaviour.java:80)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServerBehaviour.publishServer(TomcatServerBehaviour.java:233)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:975)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3157)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.jst.server.tomcat.core 2 0 2015-12-09 10:46:03.411
+!MESSAGE Could not load the Tomcat server configuration at \Servers\Tomcat v8.0 Server at localhost-config. The configuration may be corrupt or incomplete.
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2015-12-09 10:46:04.287
+!MESSAGE Could not load the Tomcat server configuration at \Servers\Tomcat v8.0 Server at localhost-config. The configuration may be corrupt or incomplete.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not load the Tomcat server configuration at \Servers\Tomcat v8.0 Server at localhost-config. The configuration may be corrupt or incomplete.
+	at org.eclipse.jst.server.tomcat.core.internal.Tomcat80Configuration.load(Tomcat80Configuration.java:313)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServer.getTomcatConfiguration(TomcatServer.java:126)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServerBehaviour.getTomcatConfiguration(TomcatServerBehaviour.java:80)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServerBehaviour.publishServer(TomcatServerBehaviour.java:233)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:975)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3157)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.jst.server.tomcat.core 2 0 2015-12-09 10:46:04.288
+!MESSAGE Could not load the Tomcat server configuration at \Servers\Tomcat v8.0 Server at localhost-config. The configuration may be corrupt or incomplete.
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2015-12-09 10:46:10.295
+!MESSAGE Could not load the Tomcat server configuration at \Servers\Tomcat v8.0 Server at localhost-config. The configuration may be corrupt or incomplete.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not load the Tomcat server configuration at \Servers\Tomcat v8.0 Server at localhost-config. The configuration may be corrupt or incomplete.
+	at org.eclipse.jst.server.tomcat.core.internal.Tomcat80Configuration.load(Tomcat80Configuration.java:313)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServer.getTomcatConfiguration(TomcatServer.java:126)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServerBehaviour.getTomcatConfiguration(TomcatServerBehaviour.java:80)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServerBehaviour.publishServer(TomcatServerBehaviour.java:233)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:975)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3157)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.jst.server.tomcat.core 2 0 2015-12-09 10:46:10.295
+!MESSAGE Could not load the Tomcat server configuration at \Servers\Tomcat v8.0 Server at localhost-config. The configuration may be corrupt or incomplete.
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2015-12-09 10:46:19.770
+!MESSAGE Could not load the Tomcat server configuration at \Servers\Tomcat v8.0 Server at localhost-config. The configuration may be corrupt or incomplete.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not load the Tomcat server configuration at \Servers\Tomcat v8.0 Server at localhost-config. The configuration may be corrupt or incomplete.
+	at org.eclipse.jst.server.tomcat.core.internal.Tomcat80Configuration.load(Tomcat80Configuration.java:313)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServer.getTomcatConfiguration(TomcatServer.java:126)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServerBehaviour.getTomcatConfiguration(TomcatServerBehaviour.java:80)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServerBehaviour.publishServer(TomcatServerBehaviour.java:233)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:975)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3157)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.jst.server.tomcat.core 2 0 2015-12-09 10:46:19.771
+!MESSAGE Could not load the Tomcat server configuration at \Servers\Tomcat v8.0 Server at localhost-config. The configuration may be corrupt or incomplete.
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2015-12-09 10:46:37.032
+!MESSAGE Could not load the Tomcat server configuration at \Servers\Tomcat v8.0 Server at localhost-config. The configuration may be corrupt or incomplete.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not load the Tomcat server configuration at \Servers\Tomcat v8.0 Server at localhost-config. The configuration may be corrupt or incomplete.
+	at org.eclipse.jst.server.tomcat.core.internal.Tomcat80Configuration.load(Tomcat80Configuration.java:313)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServer.getTomcatConfiguration(TomcatServer.java:126)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServerBehaviour.getTomcatConfiguration(TomcatServerBehaviour.java:80)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServerBehaviour.publishServer(TomcatServerBehaviour.java:233)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:975)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3157)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.jst.server.tomcat.core 2 0 2015-12-09 10:46:37.032
+!MESSAGE Could not load the Tomcat server configuration at \Servers\Tomcat v8.0 Server at localhost-config. The configuration may be corrupt or incomplete.
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2015-12-09 10:47:47.171
+!MESSAGE Several ports (8005, 8080, 8009) required by Tomcat v8.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.epp.logging.aeri.ui 2 20 2015-12-09 10:47:47.185
+!MESSAGE The notification timed out Version: 1.0.0.v20150617-0732
+!STACK 0
+org.eclipse.epp.internal.logging.aeri.ui.l10n.Logs$LogTraceException
+	at org.eclipse.epp.internal.logging.aeri.ui.l10n.Logs$LogTraceException.newTrace(Logs.java:382)
+	at org.eclipse.epp.internal.logging.aeri.ui.l10n.Logs.log(Logs.java:134)
+	at org.eclipse.epp.internal.logging.aeri.ui.l10n.Logs.log(Logs.java:126)
+	at org.eclipse.epp.internal.logging.aeri.ui.ReportingController.isNotificationInProgress(ReportingController.java:267)
+	at org.eclipse.epp.internal.logging.aeri.ui.ReportingController.sendOrNotify(ReportingController.java:166)
+	at org.eclipse.epp.internal.logging.aeri.ui.ReportingController.on(ReportingController.java:154)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.google.common.eventbus.EventHandler.handleEvent(EventHandler.java:74)
+	at com.google.common.eventbus.SynchronizedEventHandler.handleEvent(SynchronizedEventHandler.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:314)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:296)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:267)
+	at org.eclipse.epp.internal.logging.aeri.ui.log.LogListener.logging(LogListener.java:51)
+	at org.eclipse.core.internal.runtime.RuntimeLog.logToListeners(RuntimeLog.java:161)
+	at org.eclipse.core.internal.runtime.PlatformLogWriter.logged(PlatformLogWriter.java:103)
+	at org.eclipse.osgi.internal.log.ExtendedLogReaderServiceFactory.safeLogged(ExtendedLogReaderServiceFactory.java:88)
+	at org.eclipse.osgi.internal.log.ExtendedLogReaderServiceFactory.logPrivileged(ExtendedLogReaderServiceFactory.java:217)
+	at org.eclipse.osgi.internal.log.ExtendedLogReaderServiceFactory.log(ExtendedLogReaderServiceFactory.java:189)
+	at org.eclipse.osgi.internal.log.ExtendedLogServiceFactory.log(ExtendedLogServiceFactory.java:65)
+	at org.eclipse.osgi.internal.log.ExtendedLogServiceImpl.log(ExtendedLogServiceImpl.java:87)
+	at org.eclipse.osgi.internal.log.LoggerImpl.log(LoggerImpl.java:54)
+	at org.eclipse.core.internal.runtime.PlatformLogWriter.logging(PlatformLogWriter.java:44)
+	at org.eclipse.core.internal.runtime.RuntimeLog.log(RuntimeLog.java:97)
+	at org.eclipse.core.internal.jobs.JobManager.endJob(JobManager.java:701)
+	at org.eclipse.core.internal.jobs.WorkerPool.endJob(WorkerPool.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:72)
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2015-12-09 10:47:55.204
+!MESSAGE Could not publish server configuration for Tomcat v8.0 Server at localhost.
+!SUBENTRY 1 org.eclipse.jst.server.tomcat.core 4 0 2015-12-09 10:47:55.204
+!MESSAGE Multiple Contexts have a path of "/1233".
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2015-12-09 10:47:55.963
+!MESSAGE Could not publish server configuration for Tomcat v8.0 Server at localhost.
+!SUBENTRY 1 org.eclipse.jst.server.tomcat.core 4 0 2015-12-09 10:47:55.963
+!MESSAGE Multiple Contexts have a path of "/1233".
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2015-12-09 10:47:55.982
+!MESSAGE Could not publish server configuration for Tomcat v8.0 Server at localhost.
+!SUBENTRY 1 org.eclipse.jst.server.tomcat.core 4 0 2015-12-09 10:47:55.982
+!MESSAGE Multiple Contexts have a path of "/1233".
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2015-12-09 10:48:07.529
+!MESSAGE Could not publish server configuration for Tomcat v8.0 Server at localhost.
+!SUBENTRY 1 org.eclipse.jst.server.tomcat.core 4 0 2015-12-09 10:48:07.530
+!MESSAGE Multiple Contexts have a path of "/1233".
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2015-12-09 10:48:19.087
+!MESSAGE Could not publish server configuration for Tomcat v8.0 Server at localhost.
+!SUBENTRY 1 org.eclipse.jst.server.tomcat.core 4 0 2015-12-09 10:48:19.087
+!MESSAGE Multiple Contexts have a path of "/1233".
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2015-12-09 10:48:50.743
+!MESSAGE Could not publish server configuration for Tomcat v8.0 Server at localhost.
+!SUBENTRY 1 org.eclipse.jst.server.tomcat.core 4 0 2015-12-09 10:48:50.744
+!MESSAGE Multiple Contexts have a path of "/1233".
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2015-12-09 10:49:14.108
+!MESSAGE The Tomcat server configuration at \Servers\Tomcat v8.0 Server at localhost-config is missing. Check the server for errors.
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2015-12-09 10:49:25.876
+!MESSAGE The Tomcat server configuration at \Servers\Tomcat v8.0 Server at localhost-config is missing. Check the server for errors.

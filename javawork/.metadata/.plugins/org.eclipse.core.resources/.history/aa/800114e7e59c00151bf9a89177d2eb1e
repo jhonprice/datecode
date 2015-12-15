@@ -1,0 +1,21 @@
+package bigdata;
+
+class numwash
+{
+	static String washer(String s)
+	{
+		s.replaceAll("£¬", "");
+		s.replaceAll("©–", "0");
+		return s;
+	}
+}
+public class test4 {
+
+	public static void main(String[] args) {
+		String s="123,567.213";
+		s=numwash.washer(s);
+		System.out.println(s);
+
+	}
+
+}

@@ -1,0 +1,34 @@
+package bigdata;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+
+public class test7 {
+
+	public static void main(String[] args) throws IOException {
+		
+		System.out.println(func("案件受理费"));
+
+	}
+	public static boolean func(String s) throws IOException
+	{
+		String bs=new String();
+		BufferedReader bin=new BufferedReader(new FileReader("F://缓存区//book.txt"));
+		while((bs=bin.readLine())!=null)
+		{
+			if(s.equals(bs))
+			{
+				bin.close();
+				return true;
+			}
+			else;
+		}
+		bin.close();
+		return false;
+		//return true;
+		
+		
+	}
+
+}

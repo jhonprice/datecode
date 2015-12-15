@@ -1,0 +1,27 @@
+-- VERSION_4
+-- START DISKCACHE_2
+F:\onedrive\我的代码\java空间\.metadata\.plugins\org.eclipse.core.resources\.projects\python27_study\com.python.pydev.analysis\v2_indexcache
+src.__init__|1446352834802363000|F:\onedrive\我的代码\java空间\python27_study\src\__init__.py
+src.1|1446361905397693000|F:\onedrive\我的代码\java空间\python27_study\src\1.py
+-- END DISKCACHE
+-- START DICTIONARY
+1
+1=src.1
+-- END DICTIONARY
+-- START TREE 1
+11
+L|1|L!11@
+a|0|
+age|0|
+b|0|
+cla|0|
+d|0|
+l|0|
+my_|0|
+nam|0|
+s|0|
+x|0|
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

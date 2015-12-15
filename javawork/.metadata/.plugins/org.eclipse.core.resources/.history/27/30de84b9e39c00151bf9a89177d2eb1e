@@ -1,0 +1,60 @@
+package bigdata;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+
+public class test3 {
+
+	public static void main(String[] args) throws IOException{
+		String s1=new String();
+		char c;
+		int flag=2;
+		//String s2=new String();
+		try
+		{
+			BufferedReader in=new BufferedReader(new FileReader("F://缓存区//test.csv"));
+			s1=in.readLine();
+			int I=1;
+			while((s1=in.readLine())!=null)
+			{
+				String s2=new String();
+				if(I==1)
+				{
+					for(int j=0;j<s1.length();j++)
+					{
+						if(s1.charAt(j)>=48 && s1.charAt(j)<=57)
+							System.out.print(s1.charAt(j));
+					}
+					System.out.println(",");
+				}
+				
+				/*---------------------------------------------------------*/
+				if(I!=1)
+				{
+					int ind=s1.indexOf("美元");
+					while(ind!=-1)
+					{
+						System.out.print(s1.indexOf("美元")+"  ");
+						ind=s1.indexOf("美元",ind+10);
+					}
+					System.out.println("  ");
+						
+				}
+				/*---------------------------------------------------------*/
+				I++;
+				if(s1.charAt(s1.length()-1)=='"')
+				{
+					flag++;
+					break;
+				}
+			}
+		}
+		catch(IOException ioe)
+		{
+			ioe.printStackTrace();
+		}
+
+	}
+
+}

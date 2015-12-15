@@ -1,0 +1,35 @@
+package javacore;
+
+interface Shape
+{
+	public abstract double square();  
+}
+class Circle implements Shape
+{
+	private double r;
+	public Circle(int r)
+	{
+		this.r=r;
+	}
+	public double square()
+	{
+		return 2*r*r;
+	}
+	
+}
+class Triangle implements Shape
+{
+	private double d;
+	private double h;
+	
+	
+	
+}
+public class Homework {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

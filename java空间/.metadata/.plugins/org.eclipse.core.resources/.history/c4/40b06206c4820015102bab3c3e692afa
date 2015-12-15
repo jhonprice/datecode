@@ -1,0 +1,68 @@
+package javacore;
+
+interface Shape
+{
+	public abstract double square();  
+}
+class Circle implements Shape
+{
+	private double r;
+	public Circle(double r)
+	{
+		this.r=r;
+	}
+	public double square()
+	{
+		return 2*r*r;
+	}
+	
+}
+class Triangle implements Shape
+{
+	private double d;
+	private double h;
+	public Triangle(double d,double h)
+	{
+		this.d=d;
+		this.h=h;
+	}
+	public double square()
+	{
+		return 0.5*d*h;
+	}
+
+}
+class Rectangle implements Shape
+{
+	private double a;
+	private double b;
+	public Rectangle(double a,double b)
+	{
+		this.a=a;
+		this.b=b;
+	}
+	public double square()
+	{
+		return a*b;
+	}
+}
+class Square implements Shape
+{
+	private double a;
+	public Square(double a)
+	{
+		this.a=a;
+	}
+	public double square()
+	{
+		return a*a;
+	}
+}
+public class Homework {
+
+	public static void main(String[] args) {
+		Homework sl=new Homework();
+
+	}
+
+}

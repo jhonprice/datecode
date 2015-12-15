@@ -1,0 +1,43 @@
+package bigdata;
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class test5 {
+
+	public static void main(String[] args) throws IOException{
+		String s1=new String();
+		char c;
+		int flag=0;
+		try
+		{
+			int I=1;
+			BufferedReader in=new BufferedReader(new FileReader("F://»º´æÇø//in.csv"));
+			s1=in.readLine();
+			while((s1=in.readLine())!=null)
+			{
+				//System.out.println(s1+"\n");
+				if(I==1)
+				{
+					s1=s1.substring(s1.indexOf(",")+1);
+					System.out.println(s1+"\n");
+				}
+				I++;
+				if(s1.charAt(s1.length()-1)=='"')
+				{
+					break;
+				}
+			}
+			in.close();
+		}
+		catch(IOException ioe)
+		{
+			ioe.printStackTrace();
+		}
+
+	}
+
+}
