@@ -1,2 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="javax.swing.JFrame"/>
+<fullyQualifiedTypeName name="se_work.Fr"/>
+<fullyQualifiedTypeName name="se_work.fileAC"/>
+<fullyQualifiedTypeName name="se_work.app_sp"/>
+<fullyQualifiedTypeName name="se_work.datahome"/>
+</qualifiedTypeNameHistroy>

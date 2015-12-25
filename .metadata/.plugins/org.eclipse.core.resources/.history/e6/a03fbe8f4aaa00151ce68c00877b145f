@@ -1,0 +1,43 @@
+package se_work;
+
+import java.awt.*;
+import javax.swing.*;
+import java.awt.event.*;
+import java.io.*;
+
+public class SU implements ActionListener 
+{
+	File f10=app_sp.F;
+	public void actionPerformed(ActionEvent arg0)
+	{
+		FileReader fin = null;
+		try {
+			fin = new FileReader(f10);
+		} catch (Exception e1) {
+			e1.printStackTrace();
+		}
+		FileWriter fout = null;
+		try {
+			fout = new FileWriter("F:\\onedrive\\我的代码\\javawork\\java实验\\src\\sy_2\\out.txt");
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		BufferedReader bin=new BufferedReader(fin);
+		BufferedWriter bout=new BufferedWriter(fout);
+		Sp ans=new Sp();
+		String s=null;
+		try {
+			if((s=bin.readLine())!=null)
+			{
+				String ss[]=null;
+				ss=s.split(" ");
+				ans.setName(ss[0]);
+				ans.setSubject(ss[1]);
+			}
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+}

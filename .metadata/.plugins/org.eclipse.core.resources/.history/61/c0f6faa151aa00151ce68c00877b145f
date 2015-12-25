@@ -1,0 +1,43 @@
+package se_work;
+
+import java.awt.*;
+import javax.swing.*;
+import java.util.Scanner;
+import java.awt.event.*;
+import java.io.*;
+
+public class fileAC implements ActionListener{
+
+	private JFileChooser jfc=new JFileChooser(new File("."));
+	File file1;
+	public void actionPerformed(ActionEvent e) 
+	{
+		JMenuItem jmi=(JMenuItem)e.getSource();
+		if(jmi==Fr.fileItem)
+		{
+			int status=jfc.showOpenDialog(Fr.fileItem);
+			jfc.setFileSelectionMode(JFileChooser.FILES_ONLY);
+			file1=jfc.getSelectedFile();
+			datahome.F=file1;
+			
+			try {
+				Fr.tt1.setEditable(true);
+				Fr.tt1.setText("为下面打分\n");
+				Scanner scan=new Scanner(datahome.F);
+				String info="";
+				int i=1;
+				while(scan.hasNextLine())
+				{
+					info=scan.nextLine();
+					Fr.tt1.append("No."+i+"   "info+"\n");
+					i++;
+				}
+			} catch (FileNotFoundException e1) {
+				// TODO Auto-generated catch block
+				e1.printStackTrace();
+			}
+			
+			
+		}
+	}
+}

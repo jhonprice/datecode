@@ -1,0 +1,14 @@
+package se_work;
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+import java.io.*;
+import se_work.fileAC;
+public class app_sp {
+
+	public static void main(String[] args)
+	{
+		Fr a=new Fr();
+	}
+
+}

@@ -1,0 +1,23 @@
+package se_work;
+
+import java.awt.*;
+import javax.swing.*;
+import java.awt.event.*;
+import java.io.*;
+
+public class fileAC implements ActionListener{
+
+	private JFileChooser jfc=new JFileChooser(new File("."));
+	File file1;
+	public void actionPerformed(ActionEvent e) 
+	{
+		JMenuItem jmi=(JMenuItem)e.getSource();
+		if(jmi==Fr.fileItem)
+		{
+			int status=jfc.showOpenDialog(Fr.fileItem);
+			jfc.setFileSelectionMode(JFileChooser.FILES_ONLY);
+			file1=jfc.getSelectedFile();
+			app_sp.F=file1;
+		}
+	}
+}

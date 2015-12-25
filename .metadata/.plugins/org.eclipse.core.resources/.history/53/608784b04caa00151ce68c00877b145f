@@ -1,0 +1,8 @@
+package se_work;
+
+import java.io.File;
+
+public class datahome {
+
+	public static File F;
+}

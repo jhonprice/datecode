@@ -1,0 +1,36 @@
+package se_work;
+
+public class Sp {
+
+	private String subject;
+	private String name;
+	private double degree;
+	public Sp()
+	{
+		subject=null;
+		name=null;
+		degree=0;
+	}
+	public String getSubject() {
+		return subject;
+	}
+	public void setSubject(String subject) {
+		this.subject = subject;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public double getDegree() {
+		return degree;
+	}
+	private void setDegree(double degree) {
+		this.degree = degree;
+	}
+	public void sumDegree(double num)
+	{
+		setDegree(num/2.0);
+	}	
+}

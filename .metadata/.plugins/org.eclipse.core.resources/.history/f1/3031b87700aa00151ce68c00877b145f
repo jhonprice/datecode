@@ -1,0 +1,8 @@
+package se_work;
+
+public class Sp {
+
+	private String subject;
+	private String name;
+	
+}

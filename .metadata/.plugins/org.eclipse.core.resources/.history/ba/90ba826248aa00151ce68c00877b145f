@@ -1,0 +1,16 @@
+package se_work;
+
+import java.awt.*;
+import javax.swing.*;
+import java.awt.event.*;
+import java.io.*;
+
+public class SU implements ActionListener
+{
+	static File file2=new File(); 
+	public void actionPerformed(ActionEvent arg0) 
+	{
+			
+	}
+	
+}

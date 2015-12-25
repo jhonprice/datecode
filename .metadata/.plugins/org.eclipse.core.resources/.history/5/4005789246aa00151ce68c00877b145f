@@ -1,0 +1,10 @@
+package se_work;
+
+public class app_sp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

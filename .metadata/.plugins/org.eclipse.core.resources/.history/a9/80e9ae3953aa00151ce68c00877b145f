@@ -1,0 +1,19 @@
+package se_work;
+
+import java.util.*;
+import java.awt.*;
+import javax.swing.*;
+import java.awt.event.*;
+import java.io.*;
+
+public class SU implements ActionListener 
+{
+	public void actionPerformed(ActionEvent arg0)
+	{
+		String s=null;
+		double d;
+		s=Fr.t1.getText();
+		d=Double.parseDouble(s);
+	}
+	
+}
