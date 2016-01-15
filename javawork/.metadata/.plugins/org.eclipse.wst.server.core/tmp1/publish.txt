@@ -1,3 +1,0 @@
-#Tomcat publish data
-#Wed Dec 09 10:14:01 CST 2015
-org.eclipse.jst.jee.server\:sy_1=D\:\\Apache Tomcat\\apache-tomcat-8.0.30\\wtpwebapps\\sy_1
