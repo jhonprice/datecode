@@ -4,10 +4,12 @@
 #include<math.h>
 #define true 1
 #define false 0
-#define N 8
+#define M 8
+#define ROM 64
+int N=ROM/M;
 typedef struct bitgraph
 {
-	int b[N][N];
+	int b[ROM][M];
 	int free_block;
 }BG;
 BG *bg;
@@ -81,7 +83,7 @@ void init(void)
 	bg=(BG *)malloc(sizeof(BG));
 	/*sleep(5);*/
 	memset(bg->b,0,sizeof(bg->b));
-	bg->free_block=N*N;
+	bg->free_block=ROM;
 	head=(proc *)malloc(sizeof(proc));
 	head->next=NULL;
 	head->front=NULL;
@@ -93,7 +95,7 @@ void show_bg(void)
 	printf("------------------------------------------------------------------------------\n\n");
 	for(i=0;i<N;i++)
 	{
-		for(j=0;j<N;j++)
+		for(j=0;j<M;j++)
 		{
 			printf("\t%d",bg->b[i][j]);
 		}
@@ -130,11 +132,11 @@ void get_malloc(void)
 		pro->pt=(int *)malloc(sizeof(int)*pro->size);
 		for(i=0;i<N&&k!=pro->size;i++)
 		{
-			for(j=0;j<N&&k!=pro->size;j++)
+			for(j=0;j<M&&k!=pro->size;j++)
 			{
 				if(bg->b[i][j]==0)
 				{
-					pro->pt[k]=N*i+j;
+					pro->pt[k]=M*i+j;
 					bg->b[i][j]=1;
 					bg->free_block--;
 					k++;
@@ -175,8 +177,8 @@ void free_malloc(void)
 			flag=1;
 			for(m=0;m<p->size;m++)
 			{
-				i=p->pt[m]/N;
-				j=p->pt[m]%N;
+				i=p->pt[m]/M;
+				j=p->pt[m]%M;
 				bg->b[i][j]=0;
 				bg->free_block++;
 			}
