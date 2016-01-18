@@ -33,7 +33,7 @@ int main(void)
 {
 	int choose=0;
 	init();
-	printf("\n\n\n\t\t\t\t\t\t初始化完成\n\n");
+	printf("\n\n\n\t\t\t\t初始化完成\n\n");
 	do
 	{
 		printf("\n\n\t\t-----------------------------------------------------\n\n");
