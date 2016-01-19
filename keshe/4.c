@@ -81,12 +81,9 @@ int main(void)
 }
 void init(void)
 {
-<<<<<<< HEAD
 	printf("初始化中，请输入内存划分的总块数.......\n");
 	scanf("%d",&ROM);
 	N=ROM/M;
-=======
->>>>>>> 8ea73aa36b330bf9f27f8780ca4e042ce3df9dd4
 	bg=(BG *)malloc(sizeof(BG));
 	/*sleep(5);*/
 	memset(bg->b,0,sizeof(bg->b));
