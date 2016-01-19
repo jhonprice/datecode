@@ -17,6 +17,7 @@ void check_boom(void);
 void GLRU(void);
 int main(void)
 {
+	srand((unsigned) time(NULL));
 	int t;
 	do
 	{
