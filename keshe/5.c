@@ -151,7 +151,7 @@ void get_malloc(void)
 	show_bg();
 	int rp,rs;
 	rp=rand()%101+1;
-	rs=rand()%20+1;
+	rs=rand()%13+1;
 	itoa(rp,pro->pid,10);
 	pro->size=rs;
 	///////////////////////////////////////////
@@ -159,7 +159,7 @@ void get_malloc(void)
 	if(pro->size>bg->free_block)
 	{
 		printf("空闲空间不足。。。。。。\n");
-		sleep(3);
+		sleep(1);
 		return;
 	}
 	else
