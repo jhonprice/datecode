@@ -29,3 +29,14 @@ def func4(numbers):
 
 l1=[1,2,3,4,5,6,7]
 print func4(l1);
+print func4([1,2]);
+print func4((1,2,3));
+
+def func4_1(*numbers):
+	sum=0;
+	for i in numbers:
+		sum+=i;
+	return sum;
+
+print func4_1(1,2,3,4);
+print func4_1([1,2,3,4]);
